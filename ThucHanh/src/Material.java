@@ -49,7 +49,7 @@ public abstract class Material {
     }
 
     public abstract double getAmount();
-    public abstract void getExpiryDate();
+    public abstract LocalDate getExpiryDate();
 
     @Override
     public String toString() {

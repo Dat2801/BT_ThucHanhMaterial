@@ -22,8 +22,8 @@ public class Meat extends  Material implements Discount{
     }
 
     @Override
-    public void getExpiryDate() {
-        getManufacturingDate().plusDays(7);
+    public LocalDate getExpiryDate() {
+        return getManufacturingDate().plusDays(7);
     }
 
     @Override
